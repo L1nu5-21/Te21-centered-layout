@@ -1,0 +1,47 @@
+body {
+    background-color: #69c09c;
+    color: #fcfcfc;
+}
+
+.hero {
+    display: grid;
+    grid-template-areas: "stack";
+}
+
+.hero > * {
+    grid-area: stack;
+} 
+
+.hero > h1 {
+    place-self: center;
+    font-size: 4rem;
+    color: white;
+    font-weight: 900;
+}
+
+.hero > h1 > img {
+    /*filter: opacity(0.6);*/
+    filter: invert();
+}
+
+a {
+    color: white;
+}
+
+a:hover {
+    color: #000;
+}
+
+nav {
+    color: #0d5f3d;
+    background-color: #69c09c;
+}
+
+l1 > a {
+    font-weight: 500;
+    text-decoration: none;
+}
+
+.logo {
+    text-decoration: none;
+}

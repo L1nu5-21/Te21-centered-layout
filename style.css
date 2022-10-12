@@ -1,4 +1,5 @@
 .container {
+    font-family: 'Stanley', sans-serif;
     width: min(80ch, 100vw - 2rem);
     margin-inline: auto;
 }
@@ -34,6 +35,11 @@ nav > ul {
     place-self: center;
     font-size: 4rem;
     color: white;
+}
+
+.hero > h1 > img {
+    filter: opacity(0.6);
+    filter: hue-rotate(#fcfcfc);
 }
 
 footer {
